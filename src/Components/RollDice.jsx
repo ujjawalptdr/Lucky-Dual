@@ -39,7 +39,7 @@ const DiceRoller = ({ currentDice, rollDice }) => {
     <div className="flex flex-col items-center mt-10 md:mt-5 lg:mt-0">
       <div onClick={handleRollDice}>
         <img
-          src={`/images/dice${currentDice}.png`}
+          src={`./images/dice${currentDice}.png`}
           alt={`dice_${currentDice}`}
           className={`h-36 sm:h-44 md:h-48 ${
             isRolling ? "rolling" : ""

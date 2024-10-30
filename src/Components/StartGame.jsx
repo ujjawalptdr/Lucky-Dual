@@ -6,7 +6,7 @@ const StartGame = ({ toggle }) => {
     <div className="max-w-[1245px] m-auto h-screen flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-0 p-6 lg:p-0">
       <div className="w-52 h-52 lg:w-auto lg:h-auto mb-4 lg:mb-0 flex-shrink-0">
         <img
-          src="/images/dicesLogo.png"
+          src="./images/dicesLogo.png"
           alt="dice logo"
           className="w-full h-full object-contain"
         />
